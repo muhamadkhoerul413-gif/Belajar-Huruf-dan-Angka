@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tebak Huruf</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎯 Tebak Huruf</h1>
+
+
+<h2 id="soalHuruf"
+style="font-size:120px;color:#ff5722;">
+A
+</h2>
+
+<h3>⭐ Skor : <span id="skor">0</span></h3>
+
+<h3>❤️ Nyawa : <span id="nyawa">3</span></h3>
+
+<p>Pilih huruf yang benar</p>
+
+<div class="pilihan">
+
+<button onclick="cekJawaban('A')" id="btn1">
+A
+</button>
+
+<button onclick="cekJawaban('B')" id="btn2">
+B
+</button>
+
+<button onclick="cekJawaban('C')" id="btn3">
+C
+</button>
+
+<button onclick="cekJawaban('D')" id="btn4">
+D
+</button>
+
+</div>
+
+<h2 id="hasil"></h2>
+
+<br>
+
+<button onclick="location.href='permainan.html'">
+⬅ Kembali
+</button>
+
+</div>
+
+<script src="js/tebakHuruf.js"></script>
+
+</body>
+</html>

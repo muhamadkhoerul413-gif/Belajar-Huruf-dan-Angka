@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Belajar Huruf</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Belajar Huruf</h1>
+
+<img id="gambarHuruf"
+     src="images/huruf/A.png"
+     width="180">
+
+<h2 id="hurufBesar" style="font-size:90px;color:#ff5722;margin-bottom:0;">
+A
+</h2>
+
+<h3 id="hurufKecil"
+style="font-size:60px;color:#2196F3;margin-top:0;">
+a
+</h3>
+
+<canvas id="canvas" width="600" height="500"></canvas>
+
+<br><br>
+
+<button onclick="hapusCanvas()">
+🧹 Hapus
+</button>
+
+<button onclick="bacaHuruf()">
+🔊 Dengarkan Huruf
+</button>
+
+<div style="margin-top:20px;">
+
+<button onclick="sebelumnya()">
+⬅ Sebelumnya
+</button>
+
+<button onclick="berikutnya()">
+Berikutnya ➡
+</button>
+
+</div>
+
+<br>
+
+<button onclick="location.href='index.html'">
+🏠 Menu Utama
+</button>
+
+</div>
+
+<script src="js/huruf.js"></script>
+
+</body>
+</html>
