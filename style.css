@@ -1,0 +1,252 @@
+@font-face {
+    font-family: "KGDots";
+    src: url("../fonts/KGPrimaryDots.ttf");
+}
+/* Mengatur seluruh halaman */
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:#87CEEB;
+}
+
+/* Kotak utama */
+.container{
+    width:90%;
+    max-width:500px;
+    margin:60px auto;
+    text-align:center;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+/* Judul */
+h1{
+    color:#ff6600;
+    font-size:40px;
+}
+
+/* Subjudul */
+p{
+    font-size:22px;
+    color:#555;
+}
+
+/* Tombol */
+button{
+    width:100%;
+    height:60px;
+    margin-top:20px;
+    font-size:22px;
+    border:none;
+    border-radius:15px;
+    background:#4CAF50;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+/* Efek saat disentuh */
+button:hover{
+    background:#2196F3;
+    transform:scale(1.05);
+}
+
+.canvas-wrapper{
+
+    position:relative;
+
+    width:600px;
+
+    height:500px;
+
+    margin:20px auto;
+
+}
+
+.canvas-wrapper canvas{
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:100%;
+
+    height:100%;
+
+}
+
+#bgCanvas{
+
+    border:4px solid orange;
+
+    border-radius:20px;
+
+    background:white;
+
+    z-index:1;
+
+}
+
+#drawCanvas{
+
+    background:transparent;
+
+    z-index:2;
+
+}
+
+.canvas-wrapper{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    margin: 20px auto;
+}
+
+.canvas-wrapper canvas{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 600px;
+    height: 500px;
+}
+
+#bgCanvas{
+    border: 3px solid #ff9800;
+    border-radius: 15px;
+    background: white;
+    z-index: 1;
+}
+
+#drawCanvas{
+    background: transparent;
+    z-index: 2;
+}
+
+/* Canvas untuk Belajar Huruf */
+#canvas{
+    width:100%;
+    max-width:600px;
+    height:auto;
+    border:4px solid orange;
+    border-radius:20px;
+    background:white;
+    display:block;
+    margin:auto;
+}
+
+body{
+
+    margin:0;
+
+    background:#FFF8E1;
+
+    font-family:Arial, sans-serif;
+
+}
+
+.container{
+
+    width:95%;
+
+    max-width:700px;
+
+    margin:30px auto;
+
+    text-align:center;
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+}
+
+.subjudul{
+
+    color:#666;
+
+    font-size:20px;
+
+}
+
+.menu{
+
+    margin-top:40px;
+
+}
+
+.menu button{
+
+    width:100%;
+
+    padding:18px;
+
+    margin:10px 0;
+
+    font-size:24px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:#4CAF50;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.menu button:hover{
+
+    background:#43A047;
+
+}
+
+button{
+
+    background:#4CAF50;
+
+    color:white;
+
+    border:none;
+
+    border-radius:15px;
+
+    padding:15px 25px;
+
+    font-size:25px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#43A047;
+
+    transform:scale(1.05);
+
+}
+
+.gambar-angka{
+
+    font-size:60px;
+
+    margin:20px 0;
+
+    min-height:80px;
+
+}
